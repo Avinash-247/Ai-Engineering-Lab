@@ -11,7 +11,7 @@ Long ago, in a quiet village surrounded by dense forests, people whispered about
   - A brave heart
 
 ## The Journey
-As he walked deeper:
+<!-- As he walked deeper: -->
 1. The trees grew taller.
 2. The silence became heavier.
 3. The lantern flickered brighter.
