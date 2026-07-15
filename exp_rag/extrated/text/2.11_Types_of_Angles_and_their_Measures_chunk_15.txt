@@ -1,0 +1,60 @@
+[7] 
+
+Section 2.9  
+Page No. 35 
+Figure it out  
+Q.1. Write the measures of the following angles: 
+a. ∠ KAL  
+b. ∠WAL 
+c. ∠TAK 
+Ans. 
+a. ∠KAL = 30° 
+Yes, it is possible to count the number of units in 5s or 10s. 
+
+b. ∠WAL = 50° 
+
+c. ∠TAK = 120° 
+
+Page No. 36 
+Q. Name the different angles in the figure and write their measures. 
+Ans. 
+∠POQ = 35°  
+
+∠POR = 95° 
+
+∠POS = 125° 
+
+∠POT = 160° 
+
+∠QOR = 60° 
+
+∠QOS = 90° 
+
+∠QOT = 125° 
+
+∠QOU = 145° 
+
+∠ROS = 30° 
+
+∠ROT = 65° 
+
+∠ROU = 85° 
+
+∠SOT = 35° 
+
+∠SOU = 55° 
+
+∠TOU = 20° 
+
+[8] 
+
+Page No. 40 
+Think!  
+Q. In Fig. 2.20, we have ∠AOB = ∠BOC = ∠COD = ∠DOE = ∠EOF = ∠FOG = 
+∠GOH = ∠HOI=_____. Why? 
+Ans. 
+Each of the angles = 22.5º 
+As the straight angle of 180º is divided into eight equal parts so each of the right angles 
+will be of measure = 
+180º
+8 = 22.5º

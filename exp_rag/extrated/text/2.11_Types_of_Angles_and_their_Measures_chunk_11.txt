@@ -1,0 +1,23 @@
+Q.1. Fold a rectangular sheet of paper, then draw a line along the fold created. Name and 
+compare the angles formed between the fold and the sides of the paper. Make 
+different angles by folding a rectangular sheet of paper and compare the angles. 
+Which is the largest and smallest angle you made? 
+
+[5] 
+
+Ans. 
+
+Angles Formed: ∠AEF, ∠BEF, ∠DFE, ∠CFE 
+Here ∠AEF & ∠CFE are larger than ∠BEF & ∠DFE  
+Try more cases by folding rectangular sheets in different ways.   
+Q.2. In each case, determine which angle is greater and why. 
+a. ∠AOB or ∠XOY 
+b. ∠AOB or ∠XOB 
+c. ∠XOB or ∠XOC 
+Discuss with your friends on how you decided which one is greater. 
+Ans. (a)- ∠AOB; ∠XOY is an acute angle and ∠AOB = ∠AOX + ∠XOY+∠YOB 
+         (b)- ∠AOB 
+         (c) – None. ∠XOB = ∠XOC 
+
+Q.3. Which angle is greater: ∠XOY or ∠AOB? Give reasons. 
+Ans. By looking at the figure we cannot say. Superimposition or measurement is necessary here.

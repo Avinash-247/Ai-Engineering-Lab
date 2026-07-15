@@ -1,0 +1,18 @@
+•	 Team 1 announces to all, an angle measure, e.g., 34°. 
+•	 A player from Team 2 must draw that angle on the board without 
+using a protractor. Other members of Team 2 can help the player 
+by speaking words like ‘Make it bigger!’ or ‘Make it smaller!’.
+•	 A player from Team 1 measures the angle with a protractor 
+for all to see. 
+•	 Team 2 scores the number of points that is the absolute 
+difference in degrees between Team 2’s angle size and the 
+intended angle size. For example, if player’s angle from Team  2 
+is measured to be 25°, then Team 2 scores 9 points (34°–25°).
+•	 Each team gets five turns. The winner is again the team with the 
+lowest score.
+Teacher’s Note
+These games are important to play to build intuition about angles 
+and their measures. Return to this game at least once or twice on 
+different days to build practice in estimating angles. Note that 
+these games can also be played between pairs of students.
+	 Figure it Out

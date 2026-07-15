@@ -1,0 +1,26 @@
+∠PQT=150º. 
+
+[9] 
+
+Page 45 
+Figure it Out  
+Q.1. Angles in a clock: 
+a. The hands of a clock make different angles at different times. At 1 o’clock, the 
+angle between the hands is 30°. Why? 
+b. What will be the angle at 2 o’clock? And at 4 o’clock? 6 o’clock? 
+c. Explore other angles made by the hands of a clock. 
+Ans.  (a) The angles at the centre of the clock is 360º which is divided into 12 equal parts. So. 
+The angle between two successive numbers = 
+
+12  = 30º 
+(b) At 2’O clock = 60º = 2×30 
+At 4’O clock = 120º = 4×30 
+At 6’O clock = 180º = 6×30 
+(c) At 3’O clock = 90º 
+At 9’O clock = 270º 
+Try for other angles made by the hands of a clock. 
+Q.2. The angle of a door: 
+Is it possible to express the amount by which a door is opened using an angle? What 
+will be the vertex of the angle and what will be the arms of the angle? 
+Ans.  Yes, the vertex of the angle will be the point where door meets the wall. The arms will 
+be the edges of the door and the wall.

@@ -1,0 +1,14 @@
+360 parts goes back to ancient times. The Rigveda, one of the very 
+oldest texts of humanity going back thousands of years, speaks of 
+a wheel with 360 spokes (Verse 1.164.48). Many ancient calendars, 
+also going back over 3000 years—such as calendars of India, Persia, 
+Babylonia and Egypt—were based on having 360 days in a year. In 
+addition, Babylonian mathematicians frequently used divisions of 60 
+and 360 due to their use of sexagesimal numbers and counting by 60s. 
+Perhaps the most important and practical answer for why 
+mathematicians over the years have liked and continued to use 360 
+degrees is that 360 is the smallest number that can be evenly divided 
+by all numbers up to 10, aside from 7. Thus, one can break up the 
+circle into 1, 2, 3, 4, 5, 6, 8, 9 or 10 equal parts, and still have a whole 
+number of degrees in each part! Note that 360 is also evenly divisible 
+by 12, the number of months in a year, and by 24, the number of

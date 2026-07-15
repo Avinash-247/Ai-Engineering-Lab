@@ -1,0 +1,38 @@
+Ans. 
+
+Rihan marked a point on a piece of 
+paper. How many lines can he draw 
+that pass through the point? 
+Sheetal marked two points on a piece 
+of paper. How many different lines 
+can she draw that pass through 
+both of the points? 
+
+[2] 
+
+Q.5. In Fig. 2.6, name: 
+a. Five points  
+b. A line 
+c. Four rays 
+d. Five line segments 
+Ans. 
+
+a) D, E, O, B and C 
+
+b) DE or DO or DB or EO or EB or OB 
+
+c) OC,   OB,  OE,   OD  (Try for other rays)  
+
+d) DE, DO, DB, EO, EB (OB; OC are also possible)  
+
+Q.6. Here is a ray OA (Fig. 2.7). It starts at O and passes through the point A. It also 
+passes 
+through the point B. 
+a. Can you also name it as OB? Why? 
+b. Can we write OA as AO? Why or why not? 
+Ans. 
+a) Yes, O is the starting point and point B lies on the rays that goes endlessly in the  
+direction of A. OA is the extension of OB. 
+b) No, OA is a ray with starting point O whereas AO is a ray with starting point A. 
+
+[3]

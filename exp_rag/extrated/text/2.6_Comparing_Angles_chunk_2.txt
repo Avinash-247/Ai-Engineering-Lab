@@ -1,0 +1,40 @@
+Comparing angles by superimposition
+Any two angles can be compared by placing them one over the other, 
+i.e., by superimposition. While superimposing, the vertices of the 
+angles must overlap.
+After superimposition, it becomes clear which angle is smaller 
+and which is larger. 
+B
+A
+C
+Q
+P
+R
+Q (B)
+P
+A
+C
+R
+The picture shows the two angles superimposed. It is now clear 
+that ∠PQR is larger than ∠ABC.
+Equal angles. Now consider ∠AOB and ∠XOY in the figure. Which 
+is greater? 
+Y
+O
+X
+O
+B
+Y
+X
+A
+O
+B
+A
+The corners of both of these angles match and the arms overlap with 
+each other, i.e., OA ↔ OX and OB ↔ OY. So, the angles are equal in size.
+The reason these angles are considered to be equal in size is 
+because when we visualise each of these angles as being formed out 
+of rotation, we can see that there is an equal amount of rotation 
+needed to move  OB to OA  and OY to OX.
+From the point of view of superimposition, when two angles 
+are superimposed, and the common vertex and the two rays of
