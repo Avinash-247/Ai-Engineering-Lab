@@ -119,9 +119,6 @@ doc = pymupdf.open(PDF_PATH)
 all_text = ""
 image_counter = 1
 
-# --------------------------------------------------------
-# CONFIGURATION
-# --------------------------------------------------------
 
 MIN_WIDTH = 150
 MIN_HEIGHT = 150
@@ -129,9 +126,7 @@ MIN_HEIGHT = 150
 MAX_PAGE_COVERAGE = 0.70
 ZOOM_FACTOR = 3
 
-# --------------------------------------------------------
 # PROCESS PAGES
-# --------------------------------------------------------
 
 for page_number in range(len(doc)):
 
@@ -141,9 +136,7 @@ for page_number in range(len(doc)):
     page_height = page.rect.height
     page_area = page_width * page_height
 
-    # =====================================================
     # TEXT EXTRACTION
-    # =====================================================
 
     text = page.get_text()
 
@@ -154,9 +147,7 @@ for page_number in range(len(doc)):
 
     all_text += text
 
-    # =====================================================
     # EMBEDDED IMAGE EXTRACTION
-    # =====================================================
 
     image_list = page.get_images(full=True)
 
@@ -216,7 +207,6 @@ for page_number in range(len(doc)):
         if height < MIN_HEIGHT:
             continue
 
-        # Ignore almost entire page captures
         if area > page_area * MAX_PAGE_COVERAGE:
             continue
 
@@ -260,10 +250,7 @@ for page_number in range(len(doc)):
 
         except Exception:
             pass
-
-# =====================================================
 # SAVE TEXT FILE
-# =====================================================
 
 with open(
     TEXT_OUTPUT_FILE,
@@ -272,7 +259,6 @@ with open(
 ) as f:
     f.write(all_text)
 
-print("\n--------------------------------")
+
 print("Text extraction completed.")
 print("Image extraction completed.")
-print("--------------------------------")
