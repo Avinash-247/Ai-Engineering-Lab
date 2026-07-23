@@ -19,4 +19,5 @@ dependencies = [
     "pillow>=12.3.0",
     "pymupdf>=1.28.0",
     "rank-bm25>=0.2.2",
+    "streamlit>=1.60.0",
 ]
