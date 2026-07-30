@@ -86,12 +86,15 @@ Question:
 Answer:
 """)
 
-context="\n\n".join(
-    doc.page_content for doc in results
-)
+retrieval_context = [
+    doc.page_content
+    for doc in results
+]
+
+context = "\n\n".join(retrieval_context)
 
 final_prompt=prompt.invoke({
-    "context":context,
+    "context":retrieval_context,
     "question":question
     }
 )
@@ -106,32 +109,32 @@ response=llm.invoke(final_prompt)
 # required deepevals its just for my experment
 test_case=LLMTestCase(
     input=question,
-    answer=response.content,
-    retrieval_context=context
+    actual_output=response.content,
+    retrieval_context=retrieval_context
 )
 
 faithfulness=FaithfulnessMetric()
 evaluate(
-    test_case=[test_case],
+    test_cases=[test_case],
     metrics=[faithfulness],
 )
 
 answer_releveancy=AnswerRelevancyMetric()
 evaluate(
-    test_case=[test_case],
+    test_cases=[test_case],
     mertics=[answer_releveancy],
 )
 
 context_presesion= ContextualPrecisionMetric()
 evaluate(
-    test_case=[test_case],
+    test_cases=[test_case],
     mertics=[context_presesion]
 )
 
 context_recall=ContextualRecallMetric()
 
 evaluate(
-    test_case=[test_case],
+    test_cases=[test_case],
     metrics=[context_recall]
 )
 
