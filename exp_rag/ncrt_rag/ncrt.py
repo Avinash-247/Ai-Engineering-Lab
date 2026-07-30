@@ -8,6 +8,16 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 from langchain_core.prompts import ChatPromptTemplate
 
+from deepeval.metrics import (
+    FaithfulnessMetric,
+    AnswerRelevancyMetric,
+    ContextualPrecisionMetric,
+    ContextualRecallMetric,
+    ContextualRelevancyMetric
+)
+from deepeval import evaluate
+from deepeval.test_case import LLMTestCase
+
 load_dotenv()
 loader =PyPDFLoader("./knowledge/ncrt_book.pdf")
 
@@ -43,10 +53,8 @@ record_manager=SQLRecordManager(
 retriver=vector_store.as_retriever(
     search_kwargs={"k":4}
 )
-
-results=retriver.invoke(
-    "what is Arithmetic Expressions ?"
-)
+question="what is Arithmetic Expressions"
+results=retriver.invoke(question)
 
 for doc in results:
     print("="*50)
@@ -84,11 +92,53 @@ context="\n\n".join(
 
 final_prompt=prompt.invoke({
     "context":context,
-    "question":"what is Arithmetic Expressions"
+    "question":question
     }
 )
 
 response=llm.invoke(final_prompt)
 
-print(response.content)
+#print(response.content)
+
+
+#from here i am testing how all kind of test evals are 
+# working so for that purpose i am usinf more than 
+# required deepevals its just for my experment
+test_case=LLMTestCase(
+    input=question,
+    answer=response.content,
+    retrieval_context=context
+)
+
+faithfulness=FaithfulnessMetric()
+evaluate(
+    test_case=[test_case],
+    metrics=[faithfulness],
+)
+
+answer_releveancy=AnswerRelevancyMetric()
+evaluate(
+    test_case=[test_case],
+    mertics=[answer_releveancy],
+)
+
+context_presesion= ContextualPrecisionMetric()
+evaluate(
+    test_case=[test_case],
+    mertics=[context_presesion]
+)
+
+context_recall=ContextualRecallMetric()
+
+evaluate(
+    test_case=[test_case],
+    metrics=[context_recall]
+)
+
+context_relevancy=ContextualRelevancyMetric()
+
+evaluate(
+    test_cases=[test_case],
+    metrics=[context_recall]
+)
 
