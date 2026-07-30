@@ -25,3 +25,31 @@ llm = ChatGoogleGenerativeAI(
 response = llm.invoke("Say hello")
 
 print(response.content)'''
+
+
+
+
+
+from deepeval.models import DeepEvalBaseLLM
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+class GeminiModel(DeepEvalBaseLLM):
+
+    def __init__(self):
+        self.model = ChatGoogleGenerativeAI(
+            model="gemini-2.5-flash",
+            temperature=0
+        )
+
+    def load_model(self):
+        return self.model
+
+    def generate(self, prompt: str) -> str:
+        return self.model.invoke(prompt).content
+
+    async def a_generate(self, prompt: str) -> str:
+        response = await self.model.ainvoke(prompt)
+        return response.content
+
+    def get_model_name(self):
+        return "gemini-2.5-flash"

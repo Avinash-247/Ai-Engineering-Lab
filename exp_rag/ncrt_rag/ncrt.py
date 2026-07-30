@@ -18,6 +18,8 @@ from deepeval.metrics import (
 from deepeval import evaluate
 from deepeval.test_case import LLMTestCase
 
+from main import GeminiModel
+
 load_dotenv()
 loader =PyPDFLoader("./knowledge/ncrt_book.pdf")
 
@@ -94,7 +96,7 @@ retrieval_context = [
 context = "\n\n".join(retrieval_context)
 
 final_prompt=prompt.invoke({
-    "context":retrieval_context,
+    "context":context,
     "question":question
     }
 )
@@ -107,41 +109,47 @@ response=llm.invoke(final_prompt)
 #from here i am testing how all kind of test evals are 
 # working so for that purpose i am usinf more than 
 # required deepevals its just for my experment
+google_model=GeminiModel()
 test_case=LLMTestCase(
     input=question,
     actual_output=response.content,
+    expected_output=(
+        "Arithmetic expressions are mathematical expressions "
+        "made using numbers and arithmetic operators."
+    ),
+
     retrieval_context=retrieval_context
 )
 
-faithfulness=FaithfulnessMetric()
+faithfulness=FaithfulnessMetric(model=google_model)
 evaluate(
     test_cases=[test_case],
     metrics=[faithfulness],
 )
 
-answer_releveancy=AnswerRelevancyMetric()
+answer_releveancy=AnswerRelevancyMetric(model=google_model)
 evaluate(
     test_cases=[test_case],
-    mertics=[answer_releveancy],
+    metrics=[answer_releveancy],
 )
 
-context_presesion= ContextualPrecisionMetric()
+context_presesion= ContextualPrecisionMetric(model=google_model)
 evaluate(
     test_cases=[test_case],
-    mertics=[context_presesion]
+    metrics=[context_presesion]
 )
 
-context_recall=ContextualRecallMetric()
+context_recall=ContextualRecallMetric(model=google_model)
 
 evaluate(
     test_cases=[test_case],
     metrics=[context_recall]
 )
 
-context_relevancy=ContextualRelevancyMetric()
+context_relevancy=ContextualRelevancyMetric(model=google_model)
 
 evaluate(
     test_cases=[test_case],
-    metrics=[context_recall]
+    metrics=[context_relevancy]
 )
 
