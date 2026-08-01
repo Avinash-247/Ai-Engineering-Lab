@@ -1,0 +1,35 @@
+Ganita Prakash | Grade 7
+40
+(4 + 3) × 5 = 7 × 5 = 35
+5 × 4 + 3 ≠ 5 × (4 + 3).  Can you explain why?
+Is 5 × (4 + 3) = 5 × (3 + 4) = (3 + 4) × 5?
+The observations that we have made in the previous two examples 
+can be seen in a general way as follows. 
+Consider 10 × 98 + 3 × 98. This means taking the sum of 10 times 98 
+and 3 times 98.
+98 + 98 + 98 + 98 + 98 + 98 + 98 + 98 + 98 + 98  +  98 + 98 + 98 
+10 times 3 times
+Clearly, this is the same as 10 + 3 =  13 times 98. Thus, 
+10 × 98 +3 × 98 =  (10 + 3) × 98.
+Writing this equality the other way, we get
+(10 + 3) 98 =  10 × 98 + 3 × 98.
+Swapping the numbers in the products above, this property can be 
+seen in the following form:
+98 × 10 + 9 × 83 =  98 (10 + 3), and
+98 (10 + 3) =  98 × 10 + 98 × 3.
+Similarly, let us consider the expression 14 × 10 – 6 × 10. This means 
+subtracting 6 times 10 from 14 times 10.
+10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10 + 10
+14 times
+Clearly, this is 14 – 6 = 8 times 10. Thus,
+14 × 10 – 6 × 10 =  (14 – 6) × 10, 
+or
+(14 – 6) × 10 = 14 × 10 – 6 × 10
+This property can be nicely summed up as follows:
+The multiple of a sum (difference) is the same as the sum (difference) 
+of the multiples.
+Tinker the Terms II
+Let us understand what happens when we change the numbers 
+occurring in a product.
+Chapter-2.indd   40Chapter-2.indd   40 4/16/2025   4:24:23 PM4/16/2025   4:24:23 PM
+Reprint 2026-27

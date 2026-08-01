@@ -1,0 +1,41 @@
+Ganita Prakash | Grade 7
+36
+the signs of 40 and 3 in the first example, and that of 15 and 56 in 
+the second.
+Example 13: Consider the expression 500 – (250 – 100). Is it possible to 
+write this expression without the brackets?
+To evaluate this expression, we need to subtract 250 – 100 = 150 
+from 500:
+500 – (250 – 100) = 500 – 150 = 350.
+If we were to directly subtract 250 from 500, then we would have 
+subtracted 100 more than what we needed to. So, we should add back 
+that 100 to 500 – 250 to make the expression take the same value as 500 
+– (250 – 100). This sequence of operations is 500 – 250+100. Thus,
+500 – (250 – 100) = 500 – 250 + 100.
+Check that 500 – (250 – 100) is not equal to 500 – 250 – 100.
+Notice again that when the brackets preceded by a negative sign  
+are removed,  the signs of the terms inside the brackets change. In this 
+case, the signs of 250 and – 100 change to – 250 and 100.
+Example 14: Hira has a rare coin collection. She has 28 coins in one bag 
+and 35 coins in another . She gifts her friend 10 coins from the second 
+bag. Write an expression for the number of coins left with Hira.
+This can be expressed by 28 + (35 – 10). 
+We know that this is the same as 28 + (35 + (–10)). Since the terms 
+can be added in any order , this expression can simply be written as  
+28 + 35 + (–10), or 28 + 35 – 10. Thus, 
+28 + (35 – 10) = 28 + 35 – 10 = 53.
+When the brackets are NOT preceded by a negative sign, the terms 
+within them do not change their signs upon removing the brackets. 
+Notice the sign of the terms 35 and – 10 in the above expression.
+Rather than simply remembering rules for when to change the sign and 
+when not to, you can figure it out for yourself by thinking about the 
+meanings of the expressions.
+Tinker the Terms I
+What happens to the value of an expression if we increase or decrease 
+the value of one of its terms?
+Some expressions are given in following three columns. In each 
+column, one or more terms are changed from the first expression. Go 
+through the example (in the first column) and fill the blanks, doing as 
+little computation as possible.  
+Chapter-2.indd   36Chapter-2.indd   36 4/12/2025   11:27:35 AM4/12/2025   11:27:35 AM
+Reprint 2026-27

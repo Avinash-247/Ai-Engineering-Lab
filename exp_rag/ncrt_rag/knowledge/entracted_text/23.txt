@@ -1,0 +1,28 @@
+2 
+ 
+Page No. 28 – 29 
+ Check if replacing subtraction by addition in this way does not change 
+the value of the expression, by taking different examples. 
+Ans:   Let us take the numbers. 18 and 10  
+18 – 10 = 8 and 18 + (– 10) = 8 
+ 
+ Can you explain why subtracting a number is the same as adding its 
+inverse, using the Token Model of integers that we saw in the Class 6 
+textbook of mathematics? 
+Ans: Refer chapter 10 of class VI Mathematics Textbook. 
+ Does changing the order in which the terms are added give different 
+values? 
+Ans: No,  
+For example, 14 + 10 +( – 5) = 19 or (– 5) + 10 + 14 = 19 
+Page No. 29 
+ Will this also hold when there are terms having negative numbers as 
+well? Take some more expressions and check. 
+Ans:  
+Yes,  
+For example: (– 4) + (– 2) = – 6 or (– 2) + (– 4) = – 6 
+(– 6) + (– 8) = – 14 or (– 8) + (– 6) = – 14  
+Write some more examples. 
+Page No. 30 
+ Can you explain why this is happening using the Token Model of 
+integers that we saw in the Class 6 textbook of mathematics? 
+Ans:

@@ -1,0 +1,54 @@
+Arithmetic Expressions
+39
+Writing it as sum of terms gives:
+2 × 43 24+
+This expression means 24 more than 
+2 × 43. But, we want an expression 
+which means twice or double of 43 + 24.
+We can make use of brackets to write 
+such an expression: 
+2 × (43 + 24).
+So, we can say that together they have 
+to pay 2 × (43 + 24). This is also the same 
+as paying for two vegetable cutlets and 
+two rasgullas: 
+2 × 43 + 2 × 24.
+Therefore, 
+2 × (43 + 24) = 2 × 43 + 2 × 24.
+If another friend, Sangmu, joins them and orders the same items, what 
+will be the expression for the total amount to be paid?
+Example 16: In the Republic Day parade, there are boy scouts and girl 
+guides marching together . The scouts march in 4 rows with 5 scouts in 
+each row. The guides march in 3 rows with 5 guides in each row (see 
+the figure below). How many scouts and guides are marching in this 
+parade?
+The number of boy scouts marching is 4 × 5. The number of girl 
+guides marching is 3 × 5.
+The total number of 
+scouts and guides will be 
+4 × 5 + 3 × 5.
+This can also be found 
+by first finding the total 
+number of rows, i.e., 4 + 
+3, and then multiplying 
+their sum by the number 
+of children in each row. 
+Thus, the number of boys 
+and girls can be found by 
+(4 + 3) × 5. 
+Therefore, 4 × 5 + 3 × 5 
+= (4 + 3) × 5.
+Computing these expressions, we get
+4 × 5 203 × 5 15+ +4 × 5 + 3 × 5 = 35= =
+ 
+2 × 43 + 2 × 24
+2 × (43 + 24)
+₹ 43
+₹ 43
+₹ 24
+₹ 24
+3 × 5
+(4+3) × 5
+4 × 5
+Chapter-2.indd   39Chapter-2.indd   39 4/12/2025   11:27:36 AM4/12/2025   11:27:36 AM
+Reprint 2026-27
