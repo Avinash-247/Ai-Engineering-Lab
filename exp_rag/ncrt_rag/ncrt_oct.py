@@ -11,10 +11,14 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_chroma import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+
 doc=fitz.open("knowledge/ncrt_book.pdf")
 output_folder="knowledge/extracted_images"
 os.makedirs(output_folder, exist_ok=True)
-
+from dotenv import load_dotenv
+load_dotenv()
 # here we are facing few blank images 
 # so that why i have some up with this idea
 '''MIN_WIDTH = 500
@@ -63,15 +67,75 @@ for page_numbers in range(len(document)):
 
     print(f"saved:{text_file_name}")
 
-embedding=GoogleGenerativeAIEmbeddings(model="text-embedding-005")
+embedding=GoogleGenerativeAIEmbeddings(
+    model="text-embedding-005"
+)
 
 persist_directory="knowledge2/chroma_db"
 
 vectorstore=Chroma.from_documents(
-    document=chunk,
+    collection_name="ncrt_book",
+    documents=chunk,
     embedding=embedding,
     persist_directory=persist_directory,
-    collection_name="ncrt_ocr"
+)
+print(len(chunk),persist_directory)
+
+llm=ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+prompt=ChatPromptTemplate.from_template(
+    '''you are an expert NCRT TEACHER.
+    Answer ONly from the provided context.
+    if the answer is not present in that context ,
+    say :
+    "I couldn't find this information in the nCER BOOK.
+    
+    context:
+    {context}
+    Question:
+    {question}
+    Answer:
+    '''
 )
 
-print(len(chunk),persist_directory)
+def ask_question(question,k=4):
+    retriver=vectorstore.as_retriever(search_kwargs={"k":k})
+    results=retriver.invoke(question)
+
+    context="\n\n".join(docs.page_content for docs in results)
+
+    final_prompt=prompt.invoke(context, question,)
+
+    response=llm.invoke(final_prompt)
+
+    return{
+        "answer":response.content,
+        "sources": results
+    }
+
+def chat_loop():
+    print("NCRT RAG ASSISTANT-type exit to quit\n")
+
+    while True:
+        question=input("Ask a question:").strip()
+
+        if question.lower() in ("exit", "quit","q"):
+            print("OKay Thank U")
+            break
+        if not question:
+            continue
+
+        result=ask_question(question)
+
+        print("\n" + "="*60)
+        print(f'Answer:\n{result['answer']}')
+        print("\nSources:")
+
+        for doc in result['sources']:
+            page=doc.metadata.get("page")
+            snippet=doc.page_content[:100].replace("\n"," ")
+            print(page,snippet,"....")
+        print("="*60+ "\n")
+
+if __name__=="__main__":
+    chat_loop()
+

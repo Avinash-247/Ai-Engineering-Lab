@@ -5,7 +5,6 @@ from langchain_chroma import Chroma
 from langchain_classic.indexes import SQLRecordManager
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-
 from langchain_core.prompts import ChatPromptTemplate
 
 from deepeval.metrics import (

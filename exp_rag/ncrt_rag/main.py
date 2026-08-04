@@ -4,8 +4,8 @@
 
 if __name__ == "__main__":
     main()'''
-
-'''from langchain_google_genai import GoogleGenerativeAIEmbeddings
+# this code is usesd for test the embeddings Api is veorking are not
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -24,13 +24,12 @@ llm = ChatGoogleGenerativeAI(
 
 response = llm.invoke("Say hello")
 
-print(response.content)'''
+print(response.content)
 
 
 
-
-
-from deepeval.models import DeepEvalBaseLLM
+#this code is for evalutation test 
+'''from deepeval.models import DeepEvalBaseLLM
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 class GeminiModel(DeepEvalBaseLLM):
@@ -52,4 +51,4 @@ class GeminiModel(DeepEvalBaseLLM):
         return response.content
 
     def get_model_name(self):
-        return "gemini-2.5-flash"
+        return "gemini-2.5-flash"'''
