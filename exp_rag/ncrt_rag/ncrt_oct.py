@@ -87,7 +87,7 @@ prompt=ChatPromptTemplate.from_template(
     Answer ONly from the provided context.
     if the answer is not present in that context ,
     say :
-    "I couldn't find this information in the nCER BOOK.
+    "I couldn't find this information in the ncrt BOOK."
     
     context:
     {context}
@@ -103,7 +103,10 @@ def ask_question(question,k=4):
 
     context="\n\n".join(docs.page_content for docs in results)
 
-    final_prompt=prompt.invoke(context, question,)
+    final_prompt=prompt.invoke({
+        "context":context, 
+        "question":question
+    })
 
     response=llm.invoke(final_prompt)
 
@@ -127,12 +130,12 @@ def chat_loop():
         result=ask_question(question)
 
         print("\n" + "="*60)
-        print(f'Answer:\n{result['answer']}')
-        print("\nSources:")
+        print(f"Answer:\n{result['answer']}")
+        print("\nsources:")
 
-        for doc in result['sources']:
-            page=doc.metadata.get("page")
-            snippet=doc.page_content[:100].replace("\n"," ")
+        for d in result["sources"]:
+            page=d.metadata.get("page")
+            snippet=d.page_content[:100].replace("\n"," ")
             print(page,snippet,"....")
         print("="*60+ "\n")
 
