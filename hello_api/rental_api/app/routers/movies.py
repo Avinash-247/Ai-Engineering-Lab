@@ -12,6 +12,6 @@ def get_movie_by_id(movie_id:int):
 
 
 @router.get("/movies")
-def get_movies():
+def get_all_movies():
     return get_all_movie()
 
