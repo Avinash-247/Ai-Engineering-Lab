@@ -18,8 +18,10 @@ message=[
 
 responses=model.invoke(message)
 # responses.pretty_print()
-for response in responses:
-    print(response)
+
+def replay():
+    for response in responses:
+        return response
 
 
 
@@ -30,6 +32,9 @@ print(ins1)
 message=(("what is my name"),ins1)
 ins2=llm.invoke(message)
 print(ins2)'''
+
+
+
 
 
 
