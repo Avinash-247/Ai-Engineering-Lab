@@ -7,3 +7,6 @@ llm=ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite",
 
 response=llm.invoke("this is Avi")
 print(response.pretty_print())
+
+def add(name):
+    print(name)
