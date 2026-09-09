@@ -1,0 +1,6 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent_1": "./create_agent4.py:graph"
+  }
+}
