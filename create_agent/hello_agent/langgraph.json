@@ -2,6 +2,7 @@
   "dependencies": ["."],
   "graphs": {
     "agent_1": "./create_agent4.py:graph",
-    "agent_2": "./create_agent5.py:graph"
+    "agent_2": "./create_agent5.py:graph",
+    "agent_3": "./create7.py:graph"
   }
 }
