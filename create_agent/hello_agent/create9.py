@@ -30,3 +30,5 @@ graph_state.add_conditional_edges(
 )
 
 graph=graph_state.compile()
+
+result=graph.invoke(Operations(a=12,b=8,count=0))
