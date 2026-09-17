@@ -6,6 +6,7 @@
     "agent_3": "./create7.py:graph",
     "agent8":"./create8.py:graph",
     "agent9":"./create9.py:graph",
-    "agent10":"./create_agent10.py:graph"
+    "agent10":"./create_agent10.py:graph",
+    "agent11":"./create_agent11.py:graph"
   }
 }
