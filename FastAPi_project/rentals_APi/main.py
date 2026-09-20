@@ -1,6 +1,9 @@
-def main():
-    print("Hello from rentals-api!")
+from fastapi import FastAPI
 
+from rentals_api.api.router import router
 
-if __name__ == "__main__":
-    main()
+app=FastAPI(
+    title="Rentals_APi"
+)
+
+app.include_router(router)
