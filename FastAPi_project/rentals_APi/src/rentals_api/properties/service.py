@@ -6,23 +6,6 @@ from rentals_api.locations.schemas import LocationCreate
 from .models import Property,PropertyAmenity
 from .schemas import PropertyCreate
 
-def create_location(
-        db:Session,
-        data:LocationCreate,
-        )->Location:
-
-        location=Location(
-                city=data.city,
-                locality=data.locality,
-                state=data.state,
-                description=data.description,
-            )
-
-        db.add(location)
-        db.commit()
-        db.refresh(location)
-
-        return location
 
 def create_property(
     db:Session,

@@ -8,7 +8,6 @@ engine=create_engine(
     connect_args={"check_same_thread":False}
 )
 
-print("DB")
 SessionLocal=sessionmaker(
     bind=engine,
     autoflush=False,
