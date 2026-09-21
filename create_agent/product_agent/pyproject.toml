@@ -1,0 +1,11 @@
+[project]
+name = "product-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
+    "langgraph-cli[inmem]>=0.4.31",
+]
