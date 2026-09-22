@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "colorama>=0.4.6",
     "dotenv>=0.9.9",
+    "langchain-google-genai>=4.4.0",
     "langgraph-cli[inmem]>=0.4.31",
 ]

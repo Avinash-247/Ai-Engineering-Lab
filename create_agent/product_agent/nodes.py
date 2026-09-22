@@ -5,7 +5,8 @@ from tools import (
     get_all_products,
     get_product,
 )
-
+from langchain_core.messages import SystemMessage
+from prompts import SYSTEM_PROMPT
 all_tools=[get_product,
                get_all_products]
 
@@ -17,6 +18,8 @@ def get_model_with_tools(tools):
 def assistant(state:AdvisorState):
     llm_with_tools=get_model_with_tools(
         tools=all_tools)
+    replay =llm_with_tools.invoke([SystemMessage(SYSTEM_PROMPT)]+state['messages'])
+    state['messages']=[replay]
 
     return state
 
@@ -24,6 +27,6 @@ def get_tool_node()->ToolNode:
     """toolNodes"""
     return ToolNode(tools=all_tools)
 
-def capture_customer_info():
+def capture_customer_info(state:AdvisorState):
     """tool"""
-    pass
+    return state

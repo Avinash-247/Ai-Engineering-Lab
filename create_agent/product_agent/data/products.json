@@ -1,0 +1,458 @@
+{
+  "company": {
+    "name": "LReal",
+    "description": "A fictional personal care company offering skin care, hair care, and body care products.",
+    "currency": "INR",
+    "catalog_version": "1.0"
+  },
+  "products": [
+    {
+      "product_id": "LREAL-SKIN-001",
+      "category": "skin_care",
+      "product_name": "HydraGlow Gentle Face Cleanser",
+      "description": "A gentle, hydrating facial cleanser designed to remove dirt, excess oil, and daily impurities without leaving the skin feeling dry.",
+      "price_inr": 349,
+      "size": "100 ml",
+      "how_to_use": [
+        "Wet your face with lukewarm water.",
+        "Apply a small amount of cleanser.",
+        "Massage gently in circular motions for 30 to 60 seconds.",
+        "Rinse thoroughly and pat dry."
+      ],
+      "benefits": [
+        "Cleanses the skin",
+        "Helps maintain skin hydration",
+        "Removes excess oil",
+        "Leaves skin feeling fresh"
+      ],
+      "problems_it_solves": [
+        "Daily facial dirt",
+        "Excess oil",
+        "Skin feeling tight after cleansing",
+        "Mild dryness caused by harsh cleansers"
+      ],
+      "suitable_for": [
+        "Normal skin",
+        "Dry skin",
+        "Combination skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-SKIN-002",
+      "category": "skin_care",
+      "product_name": "ClearBalance Oil Control Serum",
+      "description": "A lightweight facial serum formulated for oily and combination skin to help manage excess oil and improve the appearance of enlarged pores.",
+      "price_inr": 599,
+      "size": "30 ml",
+      "how_to_use": [
+        "Cleanse your face and pat dry.",
+        "Apply 2 to 3 drops of serum.",
+        "Gently spread over the face.",
+        "Follow with a moisturizer."
+      ],
+      "benefits": [
+        "Helps control excess oil",
+        "Lightweight skin hydration",
+        "Helps improve the appearance of pores",
+        "Supports a balanced-looking complexion"
+      ],
+      "problems_it_solves": [
+        "Oily skin",
+        "Excess facial shine",
+        "Uneven-looking skin texture",
+        "Visible pores"
+      ],
+      "suitable_for": [
+        "Oily skin",
+        "Combination skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-SKIN-003",
+      "category": "skin_care",
+      "product_name": "Radiance C Vitamin Serum",
+      "description": "A brightening facial serum designed to improve the appearance of dull skin and uneven-looking skin tone.",
+      "price_inr": 699,
+      "size": "30 ml",
+      "how_to_use": [
+        "Cleanse your face.",
+        "Apply 2 to 3 drops of serum.",
+        "Gently massage into the skin.",
+        "Follow with moisturizer and sunscreen during the day."
+      ],
+      "benefits": [
+        "Helps improve skin radiance",
+        "Supports a more even-looking skin tone",
+        "Provides antioxidant support",
+        "Helps reduce the appearance of dullness"
+      ],
+      "problems_it_solves": [
+        "Dull-looking skin",
+        "Uneven skin tone",
+        "Visible signs of environmental stress"
+      ],
+      "suitable_for": [
+        "Normal skin",
+        "Combination skin",
+        "Dull-looking skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-SKIN-004",
+      "category": "skin_care",
+      "product_name": "BarrierCare Daily Moisturizer",
+      "description": "A nourishing facial moisturizer designed to hydrate dry skin and support the skin's natural protective barrier.",
+      "price_inr": 449,
+      "size": "50 g",
+      "how_to_use": [
+        "Cleanse your face.",
+        "Apply a small amount of moisturizer.",
+        "Gently massage until absorbed.",
+        "Use morning and evening."
+      ],
+      "benefits": [
+        "Helps maintain skin hydration",
+        "Supports the skin barrier",
+        "Reduces the feeling of dryness",
+        "Leaves skin soft and comfortable"
+      ],
+      "problems_it_solves": [
+        "Dry skin",
+        "Skin tightness",
+        "Flaky-looking skin",
+        "Dehydrated skin"
+      ],
+      "suitable_for": [
+        "Dry skin",
+        "Normal skin",
+        "Sensitive skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-SKIN-005",
+      "category": "skin_care",
+      "product_name": "SunShield Daily Sunscreen SPF 50",
+      "description": "A broad-spectrum sunscreen designed to protect skin from UVA and UVB radiation during outdoor activities.",
+      "price_inr": 549,
+      "size": "50 g",
+      "how_to_use": [
+        "Apply generously to exposed skin 15 minutes before sun exposure.",
+        "Use on the face, neck, and other exposed areas.",
+        "Reapply approximately every 2 hours when outdoors.",
+        "Reapply after swimming or excessive sweating."
+      ],
+      "benefits": [
+        "Helps protect against UVA and UVB radiation",
+        "Helps prevent sunburn",
+        "Supports protection against photoaging",
+        "Helps prevent tanning caused by UV exposure"
+      ],
+      "problems_it_solves": [
+        "Sun exposure",
+        "Sunburn risk",
+        "Premature skin aging caused by UV exposure",
+        "Uneven pigmentation caused by sun exposure"
+      ],
+      "suitable_for": [
+        "All skin types",
+        "Outdoor users"
+      ]
+    },
+    {
+      "product_id": "LREAL-HAIR-001",
+      "category": "hair_care",
+      "product_name": "SilkRoot Daily Shampoo",
+      "description": "A mild everyday shampoo designed to cleanse the scalp and hair while helping maintain a soft, manageable feel.",
+      "price_inr": 399,
+      "size": "250 ml",
+      "how_to_use": [
+        "Wet hair thoroughly.",
+        "Apply shampoo to the scalp.",
+        "Massage gently with fingertips.",
+        "Rinse thoroughly.",
+        "Repeat if necessary."
+      ],
+      "benefits": [
+        "Cleanses the scalp",
+        "Removes excess oil and dirt",
+        "Leaves hair feeling fresh",
+        "Helps improve hair manageability"
+      ],
+      "problems_it_solves": [
+        "Daily scalp buildup",
+        "Oily scalp",
+        "Hair feeling dirty",
+        "Hair looking dull"
+      ],
+      "suitable_for": [
+        "Normal hair",
+        "Oily scalp",
+        "Combination hair"
+      ]
+    },
+    {
+      "product_id": "LREAL-HAIR-002",
+      "category": "hair_care",
+      "product_name": "ScalpFresh Anti-Dandruff Shampoo",
+      "description": "An anti-dandruff shampoo designed to help manage visible flakes and scalp discomfort associated with dandruff.",
+      "price_inr": 449,
+      "size": "200 ml",
+      "how_to_use": [
+        "Wet hair and scalp.",
+        "Apply shampoo directly to the scalp.",
+        "Massage gently.",
+        "Leave on for the duration specified on the product label.",
+        "Rinse thoroughly."
+      ],
+      "benefits": [
+        "Helps reduce visible dandruff flakes",
+        "Cleanses the scalp",
+        "Helps manage scalp oiliness",
+        "Leaves the scalp feeling refreshed"
+      ],
+      "problems_it_solves": [
+        "Visible dandruff",
+        "Scalp flaking",
+        "Oily scalp associated with dandruff"
+      ],
+      "suitable_for": [
+        "Dandruff-prone scalp",
+        "Oily scalp"
+      ]
+    },
+    {
+      "product_id": "LREAL-HAIR-003",
+      "category": "hair_care",
+      "product_name": "DeepRepair Hair Mask",
+      "description": "A rich conditioning hair mask designed to improve the feel and manageability of dry, damaged, or chemically treated hair.",
+      "price_inr": 599,
+      "size": "200 g",
+      "how_to_use": [
+        "Apply to clean, damp hair.",
+        "Spread through the mid-lengths and ends.",
+        "Leave on for 5 to 10 minutes.",
+        "Rinse thoroughly."
+      ],
+      "benefits": [
+        "Helps soften dry hair",
+        "Improves hair manageability",
+        "Helps reduce the appearance of frizz",
+        "Provides conditioning care"
+      ],
+      "problems_it_solves": [
+        "Dry hair",
+        "Rough hair texture",
+        "Frizzy hair",
+        "Hair damaged by styling"
+      ],
+      "suitable_for": [
+        "Dry hair",
+        "Damaged hair",
+        "Curly hair"
+      ]
+    },
+    {
+      "product_id": "LREAL-HAIR-004",
+      "category": "hair_care",
+      "product_name": "SmoothSilk Leave-In Conditioner",
+      "description": "A lightweight leave-in conditioner designed to help detangle hair and improve smoothness without requiring rinsing.",
+      "price_inr": 499,
+      "size": "150 ml",
+      "how_to_use": [
+        "Apply a small amount to clean, damp hair.",
+        "Focus on the mid-lengths and ends.",
+        "Comb gently to distribute.",
+        "Leave in and style as usual."
+      ],
+      "benefits": [
+        "Helps detangle hair",
+        "Improves smoothness",
+        "Helps reduce frizz",
+        "Makes hair easier to manage"
+      ],
+      "problems_it_solves": [
+        "Hair tangling",
+        "Frizz",
+        "Rough hair",
+        "Difficult hair styling"
+      ],
+      "suitable_for": [
+        "Dry hair",
+        "Curly hair",
+        "Frizzy hair"
+      ]
+    },
+    {
+      "product_id": "LREAL-HAIR-005",
+      "category": "hair_care",
+      "product_name": "RootBoost Scalp Tonic",
+      "description": "A lightweight scalp tonic designed to provide refreshing scalp care and support a healthy-looking scalp environment.",
+      "price_inr": 649,
+      "size": "100 ml",
+      "how_to_use": [
+        "Apply a few drops to a clean, dry or damp scalp.",
+        "Massage gently with fingertips.",
+        "Do not rinse unless directed on the label.",
+        "Use according to the product instructions."
+      ],
+      "benefits": [
+        "Refreshes the scalp",
+        "Provides lightweight scalp hydration",
+        "Helps maintain scalp comfort",
+        "Supports a healthy-looking scalp"
+      ],
+      "problems_it_solves": [
+        "Dry-feeling scalp",
+        "Scalp discomfort",
+        "Scalp feeling tight"
+      ],
+      "suitable_for": [
+        "Normal scalp",
+        "Dry scalp"
+      ]
+    },
+    {
+      "product_id": "LREAL-BODY-001",
+      "category": "body_care",
+      "product_name": "FreshFoam Body Wash",
+      "description": "A refreshing body cleanser designed to remove sweat, dirt, and daily impurities while leaving the skin feeling clean.",
+      "price_inr": 299,
+      "size": "250 ml",
+      "how_to_use": [
+        "Wet your body with water.",
+        "Apply body wash to your hands or a loofah.",
+        "Massage gently over the body.",
+        "Rinse thoroughly."
+      ],
+      "benefits": [
+        "Cleanses the body",
+        "Removes sweat and dirt",
+        "Leaves skin feeling refreshed",
+        "Provides a pleasant bathing experience"
+      ],
+      "problems_it_solves": [
+        "Body sweat",
+        "Daily body dirt",
+        "Body odor caused by sweat and buildup"
+      ],
+      "suitable_for": [
+        "All skin types"
+      ]
+    },
+    {
+      "product_id": "LREAL-BODY-002",
+      "category": "body_care",
+      "product_name": "SoftTouch Body Lotion",
+      "description": "A nourishing body lotion designed to moisturize dry skin and improve the feel of rough body areas.",
+      "price_inr": 349,
+      "size": "300 ml",
+      "how_to_use": [
+        "Apply generously to clean, dry skin.",
+        "Massage until absorbed.",
+        "Use daily, especially after bathing."
+      ],
+      "benefits": [
+        "Helps maintain body skin hydration",
+        "Softens dry skin",
+        "Improves skin comfort",
+        "Helps reduce roughness"
+      ],
+      "problems_it_solves": [
+        "Dry body skin",
+        "Rough elbows",
+        "Dry knees",
+        "Skin tightness after bathing"
+      ],
+      "suitable_for": [
+        "Dry skin",
+        "Normal skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-BODY-003",
+      "category": "body_care",
+      "product_name": "SmoothPolish Body Scrub",
+      "description": "A body exfoliating scrub designed to remove surface dead skin cells and improve the feel of rough skin.",
+      "price_inr": 399,
+      "size": "200 g",
+      "how_to_use": [
+        "Wet your body with water.",
+        "Apply a small amount to the desired area.",
+        "Massage gently using circular motions.",
+        "Rinse thoroughly.",
+        "Use 1 to 2 times per week."
+      ],
+      "benefits": [
+        "Helps remove surface dead skin cells",
+        "Improves skin smoothness",
+        "Helps soften rough areas",
+        "Leaves skin feeling refreshed"
+      ],
+      "problems_it_solves": [
+        "Rough body skin",
+        "Uneven skin texture",
+        "Dry-feeling elbows and knees"
+      ],
+      "suitable_for": [
+        "Normal skin",
+        "Rough body skin"
+      ]
+    },
+    {
+      "product_id": "LREAL-BODY-004",
+      "category": "body_care",
+      "product_name": "HeelHeal Foot Cream",
+      "description": "A rich foot cream designed to moisturize dry feet and soften rough skin around the heels.",
+      "price_inr": 299,
+      "size": "75 g",
+      "how_to_use": [
+        "Wash and dry your feet.",
+        "Apply a generous amount to the heels and soles.",
+        "Massage gently until absorbed.",
+        "Use daily, preferably before bedtime."
+      ],
+      "benefits": [
+        "Helps moisturize dry feet",
+        "Softens rough heels",
+        "Improves skin comfort",
+        "Helps maintain smooth-looking feet"
+      ],
+      "problems_it_solves": [
+        "Dry feet",
+        "Rough heels",
+        "Mild heel cracking caused by dryness"
+      ],
+      "suitable_for": [
+        "Dry feet",
+        "Rough heels"
+      ]
+    },
+    {
+      "product_id": "LREAL-BODY-005",
+      "category": "body_care",
+      "product_name": "Underarm Fresh Deodorant Roll-On",
+      "description": "A daily deodorant roll-on designed to help control underarm odor and provide a fresh feeling throughout the day.",
+      "price_inr": 249,
+      "size": "50 ml",
+      "how_to_use": [
+        "Apply to clean, dry underarms.",
+        "Allow the product to dry before dressing.",
+        "Use daily as needed."
+      ],
+      "benefits": [
+        "Helps control underarm odor",
+        "Provides a fresh feeling",
+        "Convenient daily application",
+        "Helps maintain underarm freshness"
+      ],
+      "problems_it_solves": [
+        "Underarm odor",
+        "Sweat-related odor",
+        "Need for daily deodorant protection"
+      ],
+      "suitable_for": [
+        "All skin types"
+      ]
+    }
+  ]
+}

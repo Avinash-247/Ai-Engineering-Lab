@@ -20,9 +20,9 @@ def create_graph()->StateGraph:
     State_graph.add_conditional_edges(
         "assistant",
         tools_condition
-              )
-
-    State_graph.add_edge("assistant","capture")
+    )
+    State_graph.add_edge("tools","assistant")
+    #State_graph.add_edge("assistant","capture")
     State_graph.add_edge("capture",END)
     return State_graph
 
