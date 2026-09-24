@@ -1,0 +1,25 @@
+2.10 Drawing Angles
+Vidya wants to draw a 30° angle and name it ∠TIN using a protractor.
+In will be the vertex, IT and IN will be the arms of the angle.
+Keeping one arm, say IN, as the reference (base), the other arm IT should 
+take a turn of 30°. 
+
+Lines and Angles
+
+Step 1: We begin with the base and draw 𝐼𝑁:		
+
+I
+N
+Step 2: We will place the centre point of the protractor on I and align 
+IN to the 0 line.
+
+I
+N
+Step 3: Now, starting from 0, count your degrees (0, 10, 30) up to 30 
+on the protractor. Mark point T at the label 30°. 
+
+I
+N
+T
+Step 4: Using a ruler join the point I and T.
+∠TIN = 30° is the required angle.

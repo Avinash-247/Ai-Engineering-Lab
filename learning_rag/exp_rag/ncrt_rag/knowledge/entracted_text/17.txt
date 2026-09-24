@@ -1,0 +1,42 @@
+Arithmetic Expressions
+41
+Example 17: Given 53 × 18 = 954. Find out 63 × 18.
+As 63 × 18 means 63 times 18,
+63 × 18 = (53 + 10) × 18 
+  = 53 ×18 + 10×18
+  = 954 + 180
+  = 1134.
+Example 18: Find an effective way of evaluating 97 × 25.
+97 × 25 means 97 times 25.
+We can write it as (100 – 3) × 25
+W
+e know that this is the same as the difference of 100 times 25 and 
+3 times 25:
+97 × 25 = 100 × 25 – 3 × 25
+Find this value.
+Use this method to find the following products: 
+(a) 95 × 8
+(b) 104 × 15
+(c) 49 × 50
+ Is this quicker 
+than the multiplication procedure you use generally?
+Which other products might be quicker to find like the ones above?  
+Figure it Out
+1.  Fill in the blanks with numbers, and boxes by signs, so that the 
+expressions on both sides are equal.
+(a) 3 × (6 + 7) = 3 × 6 + 3 × 7
+(b) (8 + 3) × 4 = 8 × 4 + 3 × 4
+(c) 3 × (5 + 8) = 3 × 5  3 × ____ 
+(d) (9 + 2) × 4 = 9 × 4  2 ×____
+(e) 3 × (____ + 4) = 3 ____+____  
+(f) (____+ 6) × 4 = 13 × 4 + ____
+(g) 3 × (____+____) = 3 × 5 + 3 × 2  
+(h) (____+____)×____= 2 × 4 + 3 × 4
+(i) 5 × (9 – 2) = 5 × 9 – 5 × ____  
+(j) (5 – 2) × 7 = 5 × 7 – 2 × ____
+(k) 5 × (8 – 3) = 5 × 8  5 × ____ 
+(l) (8 – 3) × 7 = 8 × 7  3 × 7
+Math 
+Talk
+Chapter-2.indd   41Chapter-2.indd   41 4/12/2025   11:27:36 AM4/12/2025   11:27:36 AM
+Reprint 2026-27

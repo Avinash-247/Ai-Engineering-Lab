@@ -1,0 +1,23 @@
+Date,Report/Test,Category,Result/Diagnosis,Previous Value,Latest Value,Normal Range,Clinical Meaning,Treatment/Medicine,Purpose/Notes
+29-Apr-2026,Admission,Diagnosis,"Acute on Chronic Liver Failure, Severe Alcoholic Hepatitis, Hepatic Encephalopathy",,,,Initial severe presentation,,
+29-Apr-2026,LFT,Total Bilirubin,13.4 mg/dL,,2.6 mg/dL,0.1-1.2,Severe jaundice,,
+29-Apr-2026,LFT,Direct Bilirubin,8.0 mg/dL,,1.42 mg/dL,0-0.25,Processed bilirubin elevated,,
+29-Apr-2026,LFT,AST,251 U/L (peaked later 452),,44 U/L,0-50,Liver inflammation,,
+29-Apr-2026,LFT,ALT,38 U/L (peaked later 69),,32 U/L,0-50,Liver cell injury,,
+29-Apr-2026,LFT,Albumin,2.5 g/dL,,4.6 g/dL,3.5-5.0,Liver protein production,,
+17-May-2026,Admission,Diagnosis,"Decompensated Chronic Liver Disease Child C, MELD-Na 30, AKI(HRS), Cellulitis",,,,Second admission,,
+17-May-2026,Kidney,Creatinine,5.56 mg/dL (peak 6.03),,0.98 mg/dL,0.6-1.3,Severe kidney injury recovered,,
+17-May-2026,Kidney,Blood Urea,77 mg/dL,,24.6 mg/dL,13-50,Kidney function,,
+17-May-2026,LFT,ALP,253 U/L (peak 265),,105 U/L,50-126,Bile flow marker,,
+25-May-2026,Discharge,Summary,Clinical improvement; AKI improving,,,,Discharged on request,,
+01-Jun-2026,KFT,Creatinine,1.59 mg/dL,,,,Further recovery,,
+12-Jun-2026,LFT,Total Bilirubin,4.9 mg/dL,,,,Jaundice improving,,
+27-Jun-2026,LFT,Total Bilirubin,2.6 mg/dL,,,,Further improvement,,
+27-Jun-2026,LFT,Albumin,4.6 g/dL,,,,Normalized,,
+27-Jun-2026,LFT,AST,44 U/L,,,,Normalized inflammation,,
+27-Jun-2026,LFT,ALT,32 U/L,,,,Normal,,
+Hospital Stay,Medication,Octreotide,,,,,Used in portal hypertension/HRS management,Octride (Octreotide),Reduce portal pressure; support HRS management
+Hospital Stay,Medication,Albumin,,,,,Volume expansion,IV Albumin,Support kidneys and circulation
+Hospital Stay,Medication,Noradrenaline,,,,,Support blood pressure,Noradrenaline,HRS/ICU support
+Hospital Stay,Medication,IV Antibiotics,,,,,Treat cellulitis/infection,IV antibiotics,Infection control
+Discharge,Medication,Taxim-O (Cefixime),,,,,Oral antibiotic,Taxim-O,Continue infection treatment

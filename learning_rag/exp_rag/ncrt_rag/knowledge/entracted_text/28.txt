@@ -1,0 +1,36 @@
+7 
+ 
+(b) A metro train ticket between two stations is ₹40 for an adult and 
+₹20 for a child. What is the total cost of the tickets? 
+(i) for four adults and three 
+children? 
+(ii) for two groups having three 
+adults each? 
+ (c) Find the total height of the window 
+by writing an expression 
+describing the relationship among 
+the measurements shown in the 
+picture.  
+Ans: 
+(a)  
+Expression describing the situation = 2 × 100 + 
+100
+2  
+Terms: 2 × 100, 
+100
+2    Value: 250 gold coins. 
+(b)  
+(i) Expression = 4 × 40 + 3 × 20 
+Terms: 4 × 40, 3 × 20  Value:  ₹220 
+(ii) Expression = 2 × (3 × 40). 
+Terms: 2 × (3 × 40)  Value: ₹240 
+(c)  
+Expression = 7 × 5 + 6 × 2 + 2 × 3 
+Terms: 7 × 5, 6 × 2, 2 × 3 
+Total height: 53 cm 
+ 
+Page No. 37 
+Some expressions are given in the following three columns. In each 
+column, one or more terms are changed from the first expression. Go 
+through the example (in the first column) and fill in the blanks, doing 
+as little computation as possible.

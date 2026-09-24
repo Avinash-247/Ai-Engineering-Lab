@@ -1,0 +1,40 @@
+16 
+ 
+Ans: 
+For I: Way1: 
+(5 × 4) + (4 × 8) = 52 
+Way 2:  
+2 × (4 + 8 + 4) + (8 + 4 + 8) = 52 
+For II: Way 1: 
+(8 × 5) + (8 × 6) = 88 
+Way 2:  
+8 × (5 + 6) = 88 
+Find more ways. 
+Page No. 42 – 44 
+ Figure it Out 
+1. Read the situations given below. Write appropriate expressions for 
+each of them and find their values. 
+(a) The district market in Begur operates on all seven days of the 
+week. Rahim supplies 9 kg of mangoes each day from his 
+orchard, and Shyam supplies 11 kg of mangoes each day from his 
+orchard to this market. Find the number of mangoes supplied by 
+them in a week to the local district market. 
+(b) Binu earns ₹ 20,000 per month. She spends ₹ 5,000 on rent, ₹ 5,000 
+on food, and ₹ 2,000 on other expenses every month. What is the 
+amount Binu will save by the end of the year? 
+(c) During the daytime, a snail climbs 3 cm up a post, and during the 
+night, while asleep, accidentally slips down by 2 cm. The post is 
+10 cm high, and a delicious treat is on top. In how many days will 
+the snail get the treat? 
+Ans: 
+(a)  Expression: 7 × (9 + 11) kg 
+Value: 140 kg 
+(b)  Expression: 12 × 20,000 – 12 × (5000 + 5000 + 2000) 
+Amount Binu will save by the end of the year = ₹96,000 
+(c)  In the daytime the snail climbs 3 cm up the post and slips down by 2 
+cm at night.  
+So, the distance climbed by the snail on the post in full day cycle                
+= 3 – 2 = 1 cm 
+∴ The distance climbed by the snail in 7 days = 7 cm The height of the 
+post is 10 cm. 
+On the 8th day the snail will climb i.e. 7 × (3 – 2) + 3 × 1 = 10 cm

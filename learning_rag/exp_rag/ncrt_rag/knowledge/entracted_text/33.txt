@@ -1,0 +1,31 @@
+12 
+ 
+9. Consider the two expressions: 
+(a) 73 – 14 + 1 
+(b) 73 – 14 – 1 
+For each of these expressions, identify the expressions from the 
+following collection that are equal to it. 
+(a) 73 – (14 + 1)  
+(b) 73 – (14 – 1)  
+(c) 73 + (– 14 + 1)  
+(d) 73 + (– 14 – 1)  
+Ans: Expressions (b) and (c) are equal to the expression 73 – 14 + 1, and 
+expressions (a) and (d) are equal to the expression 73 – 14 – 1. 
+Page No. 39 
+ If another friend, Sangmu, joins them and orders the same items, 
+what will be the expression for the total amount to be paid? 
+Ans: Expression: 3 × (43 + 24). 
+Page No. 40 
+ 5 × 4 + 3 ≠ 5 × (4 + 3). Can you explain why? 
+Ans:  
+5 × 4 + 3 = (5 × 4) + 3 = 23.  
+5 × (4 + 3) = 5 × 7 = 35 
+So, 5 × 4 + 3 ≠ 5 × (4 + 3) 
+ Is 5 × (4 + 3) = 5 × (3 + 4) = (3 + 4) × 5? 
+Ans: Yes, all three expressions are equal. 
+Page No. 41 
+ Use this method to find the following products: 
+(a) 95 × 8 
+(b) 104 × 15 
+(c) 49 × 50 
+Is this quicker than the multiplication procedure you use generally?

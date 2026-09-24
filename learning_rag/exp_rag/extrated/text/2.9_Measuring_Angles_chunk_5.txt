@@ -1,0 +1,11 @@
+number of degrees in each part! Note that 360 is also evenly divisible 
+by 12, the number of months in a year, and by 24, the number of 
+hours in a day. These facts all make the number 360 very useful. 
+ The circle has been divided into 1, 2, 3, 4, 5, 6, 8, 9 10 and 12 parts 
+below. What are the degree measures of the resulting angles? Write 
+the degree measures down near the indicated angles.
+Degree measures of different angles
+How can we measure other angles in degrees? It is for this purpose 
+that we have a tool called a protractor that is either a circle divided 
+into 360 equal parts as shown in Fig. 2.12 (on page 32), or a half 
+circle divided into 180 equal parts.

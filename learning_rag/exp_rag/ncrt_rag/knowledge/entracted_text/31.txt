@@ -1,0 +1,35 @@
+10 
+ 
+Ans:   
+(a) (6 + 10) – 2 = 6 + 10 – 2 = 14 
+6 + (10 –  2)  = 6 + 10 – 2 = 14 
+So, (6 + 10) – 2 = 6 + (10 – 2) 
+(b) 16 – (8 – 3) and (16 – 8) – 3  
+16 – (8 – 3) = 16 – 8 + 3 = 11 
+(16 – 8) – 3 = 16 – 8 – 3 = 5  
+So, 16 – (8 – 3) ≠ (16 – 8) – 3  
+(c) 27 – (18 + 4) and 27 + ( – 18 – 4) 
+27 – (18 + 4) = 27 – 18 – 4 = 5  
+27 + ( – 18 – 4) = 27 – 18 – 4 = 5 
+So, 27 – (18 + 4) = 27 + ( – 18 – 4) 
+4. In each of the sets of expressions below, identify those that have the 
+same value. Do not evaluate them, but rather use your 
+understanding of terms. 
+(a) 319 + 537, 319 – 537,  – 537 + 319, 537 – 319 
+(b) 87 + 46 – 109, 87 + 46 – 109, 87 + 46 – 109, 87 – 46 + 109, 87 – (46 + 
+109), (87 – 46) + 109 
+Ans: 
+(a) 319 – 537 and – 537 + 319 have the same terms So, 319 – 537 and – 
+537 + 319 have the same value. 
+(b) 87 + 46 – 109, 87 + 46 – 109, 87 + 46 – 109 and also, 87 – 46 + 109 and 
+(87 – 46) + 109 have the same terms and so have equal values. 
+ 
+5. Add brackets at appropriate places in the expressions such that they 
+lead to the values indicated. 
+(a) 34 – 9 + 12 = 13 
+(b) 56 – 14 – 8 = 34 
+(c) – 22 – 12 – 10 + 22 = – 22 
+Ans:  
+(a) 34 – (9 + 12) = 34 – 21 = 13 
+(b) (56 – 14) – 8 = 42 – 8 = 34 
+(c) – 22 – (12 + 10) + 22 = – 22 – 22 + 22 = – 22

@@ -1,0 +1,25 @@
+Page 31 
+Figure it Out  
+Q.2. Make a few acute angles and a few obtuse angles. Draw them in different 
+orientations.  
+Ans. 
+Acute angle    
+
+Obtuse angle   
+
+Q.3. Do you know what the words acute and obtuse mean? Acute means sharp and obtuse 
+means blunt. Why do you think these words have been chosen? 
+Ans. In acute angles the opening of the edges is lesser than the obtuse angle which have larger 
+openings. 
+Q.4. Find out the number of acute angles in each of the figures below. What will be the 
+next figure and how many acute angles will it have? Do you notice any pattern in 
+the numbers? 
+Ans. 
+(i) three  
+(ii) Twelve  
+(iii) Twenty-one  
+The next figure will have thirty acute angles. 
+Yes, the pattern is 3 × 0 + 1, 3 × 1 + 1, 3 × 2 + 1, 3 × 3 + 1,… 
+The number 0,1,2,3,4,…..  are number of inner triangles. 
+
+[7]

@@ -1,0 +1,20 @@
+6.	 The Ashoka Chakra has 24 spokes. What is the 
+degree measure of the angle between two spokes 
+next to each other? What is the largest acute angle 
+formed between two spokes?
+7.	 Puzzle: I am an acute angle. If you double my 
+measure, you get an acute angle. If you triple my measure, you 
+will get an acute angle again. If you quadruple (four times) my 
+measure, you will get an acute angle yet again! But if you multiply 
+my measure by 5, you will get an obtuse angle measure. What are 
+the possibilities for my measure?
+S u m m a r y
+
+A point determines a location. It is denoted by a capital letter.
+
+A line segment corresponds to the shortest distance between two 
+points. The line segment joining points S and T is denoted by ST.  
+
+A line is obtained when a line segment like ST is extended on both 
+sides indefinitely; it is denoted by ST or sometimes by a single small 
+letter like m.

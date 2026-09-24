@@ -1,0 +1,6 @@
+Ans. Yes, angles can be used directly to describe slopes of the slab, larger the angle, greater 
+the slope of the slab. For each angle, one arm is a side and one arm is the slope. 
+The vertical arm is not visible, whereas the other arm is visible. 
+Here in this toy, edges of the slabs are the arms of the angles. Top horizontal ray is not 
+visible, other arms in the form of edges of the slab are visible.  
+Teacher should motivate students to get other possible answers.

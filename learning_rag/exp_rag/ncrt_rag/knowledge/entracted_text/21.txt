@@ -1,0 +1,16 @@
+Arithmetic Expressions
+45
+ 
+Expression Engineer!
+Using three 3’s along with the four operations (addition, subtraction, 
+multiplication, and division) and brackets as needed we can create 
+several expressions. For example, (3 + 3)/3 = 2, 3 + 3 – 3 = 3, 3 × 
+3 + 3 = 12, and so on.
+Using four 4’s, create expressions to get all values from 1 to 20.
+Using the numbers 1, 2, 3, 4, and 5 exactly once in any order get 
+as many values as possible between  – 10 and +10.
+Using the numbers 0 to 9 exactly once in any order , make an 
+expression with a value 100.
+What other similar interesting questions can you ask?
+Chapter-2.indd   45Chapter-2.indd   45 4/16/2025   4:25:29 PM4/16/2025   4:25:29 PM
+Reprint 2026-27

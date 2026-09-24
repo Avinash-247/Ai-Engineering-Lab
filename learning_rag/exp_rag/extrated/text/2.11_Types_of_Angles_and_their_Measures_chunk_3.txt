@@ -1,0 +1,46 @@
+a.  ∠PTR		
+b. ∠PTQ		
+c. ∠PTW	
+d. ∠WTP
+T
+Q
+R
+P
+W
+
+Lines and Angles
+
+ Let’s Explore
+In this figure, ∠TER = 80°. What is 
+the measure of ∠BET? What is the 
+measure of ∠SET? 
+
+o90
+o
+B
+E
+S
+T
+R
+Hint: Observe that ∠REB is a straight angle. Hence, the degree measure of 
+∠REB = 180° of which 80° is covered by ∠TER. A similar argument 
+can be applied to find the measure of ∠SET.
+	 Figure it Out
+1.	 Draw angles with the following degree measures:
+a. 140°   b. 82°   c. 195°   d. 70°   e. 35° 	
+2.	 Estimate the size of each angle and then measure it with a 
+protractor:
+a.
+b.
+c.
+d.
+e.
+f.
+
+Classify these angles as acute, right, obtuse or reflex angles.
+3.	 Make any figure with three acute angles, one right angle and two 
+obtuse angles.
+4.	 Draw the letter ‘M’ such that the angles on the sides are 40° each 
+and the angle in the middle is 60°. 
+5.	 Draw the letter ‘Y’ such that the three angles formed are 150°, 60° 
+and 150°.
