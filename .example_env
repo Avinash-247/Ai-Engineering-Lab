@@ -1,3 +1,0 @@
-GOOGLE_CLOUD_PROJECT='your g cloud project id'
-GOOGLE_CLOUD_LOCATION='you G-cloud location '
-GOOGLE_GENAI_USE_VERTEXAI=true/false according 

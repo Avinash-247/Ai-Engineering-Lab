@@ -1,6 +1,0 @@
-Q.7.   Puzzle: I am an acute angle. If you double my measure, you get an acute angle. If 
-you triple my measure, you will get an acute angle again. If you quadruple (four 
-times) my measure, you will get an acute angle yet again! But if you multiply my 
-measure by 5, you will get an obtuse angle measure. What are the possibilities for 
-my measure? 
-Ans.   The acute angle can be 19º, 20º, 21º & 22º.

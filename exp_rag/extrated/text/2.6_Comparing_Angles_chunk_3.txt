@@ -1,5 +1,0 @@
-needed to move  OB to OA  and OY to OX.
-From the point of view of superimposition, when two angles 
-are superimposed, and the common vertex and the two rays of 
-both angles lie on top of each other, then the sizes of the angles 
-are equal.
