@@ -43,7 +43,7 @@ graph_state.add_conditional_edges(
 )
 
 graph_state.add_edge("tools","chat")
-graph_state.add_edge("chat",END)
+#graph_state.add_edge("chat",END)
 
 graph=graph_state.compile()
 
