@@ -1,0 +1,3 @@
+name: time
+model: gemini-3.5-flash-lite
+entrypoint: demo_agent.py
