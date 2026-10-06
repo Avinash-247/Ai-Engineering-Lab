@@ -1,37 +1,37 @@
-# Virtual environments
-.venv/
-venv/
-env/
+# # Virtual environments
+# .venv/
+# venv/
+# env/
 
-# Environment variables / secrets
-.env
-.env.*
-!.env.example
+# # Environment variables / secrets
+# .env
+# .env.*
+# !.env.example
 
-# Python cache
-__pycache__/
-*.py[cod]
+# # Python cache
+# __pycache__/
+# *.py[cod]
 
-# IDE
-.vscode/
-.idea/
+# # IDE
+# .vscode/
+# .idea/
 
-# Jupyter
-.ipynb_checkpoints/
+# # Jupyter
+# .ipynb_checkpoints/
 
-# Logs
-*.log
+# # Logs
+# *.log
 
-# OS files
-.DS_Store
-Thumbs.db
+# # OS files
+# .DS_Store
+# Thumbs.db
 
-# Build/package files
-build/
-dist/
-*.egg-info/
+# # Build/package files
+# build/
+# dist/
+# *.egg-info/
 
-# Python tooling
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+# # Python tooling
+# .pytest_cache/
+# .mypy_cache/
+# .ruff_cache/

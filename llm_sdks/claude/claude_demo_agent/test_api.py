@@ -9,7 +9,7 @@ client = Anthropic(
 )
 
 message=client.messages.create(
-    max_tokens=100,
+    max_tokens=30,
     messages=[
         {
             "role":"user",
