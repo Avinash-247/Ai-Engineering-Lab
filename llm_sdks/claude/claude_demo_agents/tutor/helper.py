@@ -1,7 +1,7 @@
 from claude_agent_sdk import (
     ClaudeAgentOptions,Message,
     SystemMessage,UserMessage,ResultMessage,
-    AssistantMessage)
+    AssistantMessage,ClaudeSDKClient)
 
 from claude_agent_sdk.types import TextBlock
 Model_Name='claude-haiku-4-5'
@@ -27,3 +27,4 @@ def parse_message(message:Message):
     elif isinstance(message,ResultMessage):
         print(f"duration{message.duration_ms}ms")
         print(f"cost{message.total_cost_usd}")
+        print(f"session_id:{message.session_id}")
