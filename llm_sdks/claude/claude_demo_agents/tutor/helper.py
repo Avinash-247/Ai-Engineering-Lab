@@ -25,5 +25,5 @@ def parse_message(message:Message):
                 print("text{block.text}")
 
     elif isinstance(message,ResultMessage):
-        print(f"durection{message.duration_ms}ms")
+        print(f"duration{message.duration_ms}ms")
         print(f"cost{message.total_cost_usd}")
