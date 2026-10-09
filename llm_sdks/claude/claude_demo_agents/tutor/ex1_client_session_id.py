@@ -1,14 +1,22 @@
 from dotenv import load_dotenv
 from helper import parse_message
-from claude_agent_sdk import ClaudeAgentOptions,ClaudeSDKClient
+from claude_agent_sdk import (
+    ClaudeAgentOptions,ClaudeSDKClient,
+    InMemorySessionStore,SessionStore)
 import asyncio
+
+
+#Session_Store=InMemorySessionStore()
+Session_Store=SessionStore("database.db")
 
 async def main():
     options=ClaudeAgentOptions(
         system_prompt="you are an helpful assistant",
         setting_sources=[],
         model='claude-haiku-4-5',
-        max_turns=2
+        max_turns=2,
+        #session_store=Session_Store,
+
     )
     async with ClaudeSDKClient(options=options) as client:
         question="my name is Avi i am from hyd"
