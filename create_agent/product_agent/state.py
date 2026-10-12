@@ -11,5 +11,6 @@ class AdvisorState(TypedDict,total=False):
     email:Optional[str]
     customer_name:Optional[str]
     lead_status:Optional[str]
+    summery:Optional[str]
 
         
