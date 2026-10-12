@@ -3,7 +3,8 @@ from state import AdvisorState
 from langgraph.prebuilt import tools_condition
 from nodes import (
     assistant,get_all_products,
-    get_tool_node,capture_customer_info
+    get_tool_node,capture_customer_info,
+    all_tools,
 )
 def create_graph()->StateGraph:
     """this method create a graph
@@ -11,7 +12,7 @@ def create_graph()->StateGraph:
     """
     State_graph=StateGraph(AdvisorState)
     State_graph.add_node("assistant",assistant)
-    State_graph.add_node("tools",get_tool_node)
+    State_graph.add_node("tools",get_tool_node())
     State_graph.add_node("capture",capture_customer_info)
 
 

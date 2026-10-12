@@ -4,7 +4,7 @@ from state import AdvisorState
 from langchain_core.messages import HumanMessage
 result=graph.invoke(AdvisorState(
     messages=[
-        HumanMessage("I need a face for oily skin")
+        HumanMessage("I need a fix for skin detan")
 
     ]
 ))
