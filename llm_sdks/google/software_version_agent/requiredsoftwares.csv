@@ -1,0 +1,9 @@
+sno,name,version,url
+1,Python,,https://www.python.org/
+2,uv,,https://docs.astral.sh/uv/
+3,Google Cloud CLI,,https://cloud.google.com/sdk
+4,Git,,https://git-scm.com/
+5,Node.js,,https://nodejs.org/
+6,Visual Studio Code,,https://code.visualstudio.com/
+7,Docker,,https://www.docker.com/
+8,Google ADK,,https://google.github.io/adk-docs/
