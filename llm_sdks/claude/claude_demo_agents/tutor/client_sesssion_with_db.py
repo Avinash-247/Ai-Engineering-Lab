@@ -6,7 +6,9 @@ from helper import parse_message
 import asyncio
 from session_storage import SessionStorage
 # Session_Store=InMemorySessionStore()
-Storage=SessionStore("/tutor/database.db")
+Storage=SessionStorage("database.db")
+# Storage=SessionStore("database.db")
+
 
 async def main():
     user_id=input("what is your user ID").strip()

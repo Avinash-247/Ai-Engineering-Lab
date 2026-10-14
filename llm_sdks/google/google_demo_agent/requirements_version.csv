@@ -1,0 +1,7 @@
+sno,name,version,required,installation_command
+1,Python,3.12,Yes,Install Python 3.12
+2,uv,Latest,Yes,pip install uv
+3,Git,Latest,Optional,Install Git
+4,Google ADK,2.10.0 or compatible,Yes,uv sync
+5,python-dotenv,1.2.3 or compatible,Yes,uv sync
+6,Google Gemini API Access,API key required,Yes,Configure GOOGLE_API_KEY
