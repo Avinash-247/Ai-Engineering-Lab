@@ -1,0 +1,9 @@
+sno,name,current_version,latest_version,status,release_date,source_url,notes
+1,Python,,3.15.0,unknown,2026-10-09,https://www.python.org/downloads/release/python-3150/,
+2,uv,,0.13.0,unknown,2026-10-09,https://github.com/astral-sh/uv/blob/main/CHANGELOG.md,
+3,Google Cloud CLI,,589.0.0,unknown,2026-10-13,https://cloud.google.com/sdk/docs/release-notes,
+4,Git,,2.56.0,unknown,2026-09-28,https://git-scm.com/,
+5,Node.js,,26.11.1,unknown,2026-10-07,https://nodejs.org/,The latest LTS (Long Term Support) version is 24.21.0.
+6,Visual Studio Code,,1.141,unknown,2026-10-07,https://code.visualstudio.com/updates/v1_141,Visual Studio Code typically follows a monthly release cycle and does not have long-term support (LTS) versions in the traditional sense.
+7,Docker,,29.9.0,unknown,2026-10-07,https://www.docker.com/blog/docker-engine-version-29-release-notes/,Docker Engine does not have Long Term Support (LTS) releases.
+8,Google ADK,,2.11.0,unknown,2026-10-01,https://github.com/google/adk/releases/tag/2.11.0,"This refers to the Python version of Google ADK. Separate releases exist for other languages like TypeScript, Go, Java, and Kotlin."

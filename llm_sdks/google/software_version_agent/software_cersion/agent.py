@@ -1,29 +1,39 @@
 from google.adk.agents import Agent
 from google.adk.tools import google_search
 
+INSTRUCTION = """\
+You find the latest STABLE release of a software product using web search only.
+
+You will receive one software entry with: name, optional currently-installed
+version, and an optional reference URL.
+
+Rules:
+- Search the web. Prefer official sources (vendor site, official download or
+  release page, official GitHub releases, official docs). If a reference URL
+  is given, search for that site/domain first (e.g. "site:example.com release").
+- Ignore beta, RC, nightly, preview and LTS-vs-current confusion: report the
+  latest stable release, and mention an LTS version in "notes" if one exists
+  separately (e.g. Node.js).
+- Do not guess or use memory. If you cannot confirm a version from search
+  results, set latest_version to "NOT_FOUND".
+- If a current version was provided, set status to "up-to-date" or
+  "outdated" by comparing it with latest_version; otherwise use "unknown".
+
+Respond with ONLY a single JSON object, no markdown fences, no extra text:
+{
+  "name": "...",
+  "latest_version": "...",
+  "release_date": "YYYY-MM-DD or empty",
+  "status": "up-to-date | outdated | unknown",
+  "source_url": "page where you confirmed the version",
+  "notes": "short note or empty"
+}
+"""
 
 root_agent = Agent(
-    name="software_version_search_agent",
+    name="software_version_checker",
     model="gemini-2.5-flash",
-    description="Discovers the latest stable software versions.",
-    instruction="""
-    You are a Software Version Discovery Agent.
-
-    When given a software name:
-
-    1. Use Google Search to find its latest stable version.
-    2. Prefer official release pages and documentation.
-    3. Exclude beta releases and release candidates.
-    4. Never invent version numbers.
-    5. Return the following fields:
-
-       Software: software name
-       Latest version: verified version number
-       Release date: release date, if available
-       Source URL: official source URL
-       Status: Verified or Unable to verify
-
-    If you cannot verify the version, explicitly say so.
-    """,
+    description="Finds the latest stable version of a software product via web search.",
+    instruction=INSTRUCTION,
     tools=[google_search],
 )
