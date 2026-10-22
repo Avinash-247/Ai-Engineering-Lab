@@ -1,6 +1,6 @@
 from pathlib import Path
 from pypdf import PdfReader
-
+from google.adk.tools import function_tool
 
 def get_author(path: str) -> str:
     """Extract the author name from a PDF file's metadata."""
@@ -20,3 +20,5 @@ def get_author(path: str) -> str:
         return metadata.author
 
     return "Author name not found in PDF metadata"
+
+custom_tool=function_tool(func=get_author)

@@ -39,26 +39,60 @@
 #     tools=[get_author],
 # )
 
+from pathlib import Path
+from pypdf import PdfReader
+from google.adk.tools import function_tool
+import asyncio
+
+
+def get_author(path: str) -> str:
+    """Extract the author name from a PDF file's metadata."""
+
+    pdf_path = Path(path)
+
+    if not pdf_path.is_absolute():
+        pdf_path = Path(__file__).parent / pdf_path
+
+    if not pdf_path.exists():
+        return f"PDF file not found: {pdf_path}"
+
+    reader = PdfReader("sample_ai_author.pdf")
+    metadata = reader.metadata
+
+    if metadata and metadata.author:
+        return metadata.author
+
+    return "Author name not found in PDF metadata"
+
+custom_tool=function_tool(func=get_author)
+
+
+
 
 from google.adk.agents.llm_agent import Agent
-from .auther1 import get_author
+
+async def main():
+    custom_tool=function_tool(func=get_author)
+    root_agent = Agent(
+        name="software_version_agent",
+        model="gemini-2.5-flash",
+        instruction="""
+            You are a PDF author information assistant.
+
+            You have access to a tool named get_author.
+
+        The PDF file sample_ai_author.pdf is located in the same
+        directory as the get_author function.
+
+        When the user asks for the author of this PDF:
+        1. Call get_author with path="sample_ai_author.pdf".
+        2. Do not ask the user to provide the path.
+        3. Return the result from the tool.
+""",
+        tools=[custom_tool],
+    )
 
 
-root_agent = Agent(
-    name="software_version_agent",
-    model="gemini-2.5-flash",
-    instruction="""
-    You are a PDF author information assistant.
 
-    You have access to a tool named get_author.
-
-    The PDF file sample_ai_author.pdf is located in the same
-    directory as the get_author function.
-
-    When the user asks for the author of this PDF:
-    1. Call get_author with path="sample_ai_author.pdf".
-    2. Do not ask the user to provide the path.
-    3. Return the result from the tool.
-    """,
-    tools=[get_author],
-)
+if __name__ =="__main__":
+    asyncio.run(main())
