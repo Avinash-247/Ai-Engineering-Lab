@@ -28,3 +28,6 @@ def parse_message(message:Message):
         print(f"duration{message.duration_ms}ms")
         print(f"cost{message.total_cost_usd}")
         print(f"session_id:{message.session_id}")
+    
+
+
