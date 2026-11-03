@@ -18,19 +18,6 @@ async def main():
         #session_store=Session_Store,
 
     )
-    # async with ClaudeSDKClient(options=options) as client:
-    #     question="my name is Avi i am from hyd"
-    #     await client.query(question)
-    #     async for message in client.receive_messages():
-    #         parse_message(message)
-
-
-    # question="where do i live?"
-
-    # await client.query(question)
-    # async for message in client.receive_messages():
-    #     parse_message(message)
-
     question="what is my name"
     async for message in query(prompt=question,options=options):
         parse_message(message)
