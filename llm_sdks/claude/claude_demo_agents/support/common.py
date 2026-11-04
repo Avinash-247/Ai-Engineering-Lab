@@ -32,7 +32,8 @@ def make_options(
         tools:list,
         resume:str|None=None,
         max_turns:int=6,
-        session_store:SessionStore=None)->ClaudeAgentOptions:
+        session_store:SessionStore=None,
+        session_id:str=None)->ClaudeAgentOptions:
     return ClaudeAgentOptions(
         system_prompt=system_prompt,
         resume=resume,
@@ -93,7 +94,7 @@ async def run_thread(
     if new_thread:
         store.end_thread(customer)
     session_id=store.get_thread(customer)
-    print(f"{'Continuing' if session_id else "New"} thread for {customer}.Type 'quit to stop\n")
+    print(f"{'Continuing' if session_id else 'New'} thread for {customer}.Type 'quit to stop\n")
     options=make_options(
         system_prompt,
         tools,

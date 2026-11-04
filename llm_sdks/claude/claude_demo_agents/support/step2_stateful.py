@@ -1,4 +1,12 @@
+"""
+Step 2: A stateful support agent
 
+New concepts:
+    short-term memory   the SDK session IS the conversation; resume=<session_id> continues it
+    thread mapping      our code remembers which session belongs to which customer
+    session store       the SDK also mirrors every transcript into SQLite, so a resume
+                        still works on another machine or after the local files are gone
+"""
 from claude_agent_sdk import query,tool,ToolAnnotations
 from  typing import Annotated,Any
 
@@ -9,7 +17,14 @@ import json
 import asyncio
 from dotenv  import  load_dotenv
 
-from session_stateful import SQLiteSessionStore
+from pathlib  import  Path
+
+from session_stateful import SqliteSessionStore
+
+DATA_DIR=Path(__file__).parent /"downloads"
+DATA_DIR.mkdir(exist_ok=True)
+
+SESSION_STORE=SqliteSessionStore(DATA_DIR/"session.db")
 
 RULES="""you The customer supports agent for quickbite, a  food delivery-
 for order ststus, ETA or items, always call get_order_status. never answer 
@@ -49,7 +64,12 @@ async def  ask_once(customer:str,text:str):
     try:
         async for message in query(
                 prompt=text,
-                options=make_options(RULES,build_tools(customer)),  session_store=SQLiteSessionStore(path="./downloads/session.db")):
+                options=make_options(
+                    RULES,
+                    build_tools(customer),  
+                    session_store=SESSION_STORE,
+                ),
+            ):
             print_message(message)
         
 
