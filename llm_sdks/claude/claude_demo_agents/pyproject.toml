@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bs4>=0.0.2",
     "claude-agent-sdk>=0.2.164",
+    "playwright>=1.64.1",
     "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
 ]

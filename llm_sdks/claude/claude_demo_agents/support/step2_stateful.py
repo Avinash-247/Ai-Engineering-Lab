@@ -7,12 +7,14 @@ New concepts:
     session store       the SDK also mirrors every transcript into SQLite, so a resume
                         still works on another machine or after the local files are gone
 """
+
 from claude_agent_sdk import query,tool,ToolAnnotations
 from  typing import Annotated,Any
 
 from common import ORDERS,ok,fail,print_message,make_options
 
 import json
+import sqlite3
 
 import asyncio
 from dotenv  import  load_dotenv
@@ -25,6 +27,30 @@ DATA_DIR=Path(__file__).parent /"downloads"
 DATA_DIR.mkdir(exist_ok=True)
 
 SESSION_STORE=SqliteSessionStore(DATA_DIR/"session.db")
+
+
+
+class Threads:
+    """customer -> session_id. The SessionStore keeps transcripts; it doesn't know customers."""
+
+    def __init__(self, path: Path):
+        self.db = sqlite3.connect(path)
+        self.db.execute("CREATE TABLE IF NOT EXISTS threads (customer_id TEXT PRIMARY KEY, session_id TEXT NOT NULL)")
+
+    def get(self, customer: str) -> str | None:
+        row = self.db.execute("SELECT session_id FROM threads WHERE customer_id=?", (customer,)).fetchone()
+        return row[0] if row else None
+
+    def save(self, customer: str, session_id: str) -> None:
+        with self.db:
+            self.db.execute("INSERT OR REPLACE INTO threads VALUES (?, ?)", (customer, session_id))
+
+    def end(self, customer: str) -> None:
+        with self.db:
+            self.db.execute("DELETE FROM threads WHERE customer_id=?", (customer,))
+
+
+THREADS = Threads(DATA_DIR / "threads.db")
 
 RULES="""you The customer supports agent for quickbite, a  food delivery-
 for order ststus, ETA or items, always call get_order_status. never answer 
@@ -76,9 +102,13 @@ async def  ask_once(customer:str,text:str):
     except Exception as error:
         print(f"(run ended:{error})")
 
-async def chat(customer:str)->None:
-    """A brand new session for every question"""
-    print(f"stateless chat for {customer}. Every  quesion  starts from  nothing,Type  quit  to  stop\n")
+async def chat(customer:str, new_thread:bool)->None:
+    #"""A brand new session for every question"""
+    if new_thread:
+        THREADS.end(customer)
+    state="continuing" if THREADS.get(customer) else "starting"
+    print(f"{state} the thread for {customer}. Type 'quit' to stop.\n")
+    #print(f"stateless chat for {customer}. Every  quesion  starts from  nothing,Type  quit  to  stop\n")
     while  True:
         text=input("customer: ").strip()
         if text.lower() in {"quit","exit"}:
