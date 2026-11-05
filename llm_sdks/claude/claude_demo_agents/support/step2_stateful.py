@@ -122,7 +122,9 @@ async def chat(customer:str, new_thread:bool)->None:
 
 
 if __name__=="__main__":
+    import sys
+
     load_dotenv()
 
-    asyncio.run(chat(customer="cust_101"))
+    asyncio.run(chat(customer="cust_101",new_thread="--new" in sys.argv))
 
