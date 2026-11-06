@@ -79,6 +79,14 @@ def track_order(order_id:str)->OrderStatus:
     pass
 
 
+@mcp.prompt(title="Daily Sales Summery")
+def daily_summary()->str:
+    if not ORDERS:
+        return "No orders placed so far"
+    total=sum(ORDERS[order_id]["total_rupees"] for order_id in ORDERS)
+    return f"Sales do far to day are {total}"
+
+
 
 if  __name__ =="__main__":
     mcp.run("stdio")
