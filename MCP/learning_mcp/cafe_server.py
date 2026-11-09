@@ -86,7 +86,8 @@ def daily_summary()->str:
     total=sum(ORDERS[order_id]["total_rupees"] for order_id in ORDERS)
     return f"Sales do far to day are {total}"
 
-
+app=mcp.streamable_http_app()
 
 if  __name__ =="__main__":
-    mcp.run("stdio")
+    #mcp.run("stdio")
+    mcp.run("streamable-http",host="0.0.0.0",port=8000)

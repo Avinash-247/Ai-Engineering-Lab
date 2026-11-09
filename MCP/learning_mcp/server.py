@@ -1,4 +1,5 @@
 from mcp.server import MCPServer
+import asyncio
 
 mcp=MCPServer("hello_mcp")
 
@@ -78,3 +79,6 @@ def modulus(a: int | float, b: int | float) -> int | float:
         raise ZeroDivisionError("Cannot calculate modulus with zero.")
 
     return a % b
+
+if __name__=="__main__":
+    mcp.run("streamable-http")
