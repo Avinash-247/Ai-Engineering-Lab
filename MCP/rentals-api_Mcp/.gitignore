@@ -1,0 +1,12 @@
+# uv's virtual environment (each student creates their own with `uv sync`)
+.venv/
+
+# live telemetry: generated while the app runs
+telemetry.db
+telemetry.db-shm
+telemetry.db-wal
+
+# Python caches
+__pycache__/
+*.pyc
+*.log
